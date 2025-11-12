@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="app">
       <div className="home">
-        <h1>Tabsiuhiuuih</h1>
+        <h1>Tabs</h1>
         <div className="rotating-text">
           <span className="constant">write </span>
           <span className="rotating" key={currentIndex}>
