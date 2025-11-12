@@ -43,9 +43,10 @@
   font-weight: 400;
   margin: 1.5rem 0;
   min-height: 3rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   gap: 0.5rem;
 }
 
@@ -57,6 +58,8 @@
   color: #667eea;
   animation: fadeIn 0.5s ease-in;
   display: inline-block;
+  min-width: 200px;
+  text-align: left;
 }
 
 @keyframes fadeIn {
